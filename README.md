@@ -24,7 +24,7 @@ This library can be compiled with following compilers:
 * Clang 5.0.0 or newer
   * Both these compilers require the flag `-std=c++17` for this library to compile
 * Visual Studio 2015 or newer
-  * The compiler version needs to be at least 19.10(`_MSC_VER > 1910`)
+  * The compiler version needs to be at least 19.10(`_MSC_VER >= 1910`)
   * Visual studio does not require any language version flag to be passed.
     * unless you are using compiler version 19.14 or 19.15. On these versions for some reason the compiler will complain about constructors not existing and will therefore require `/std:c++17` flag to be specified.
 
